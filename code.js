@@ -1,3 +1,6 @@
+var todayDate = moment().format('dddd, MMM Do YYYY');
+$("#currentDay").html(todayDate);
+
 var nineAm = $("#9am");
 var tenAm = $("#10am");
 var elevenAm = $("#11am");
@@ -8,7 +11,6 @@ var threePm = $("#15pm");
 var fourPm = $("#16pm");
 var fivePm = $("#17pm");
 var sixPm = $("#18pm");
-var sevenPm = $("#19pm");
 
 var time = moment().hours();
 var meetings;
